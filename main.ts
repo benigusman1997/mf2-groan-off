@@ -10,7 +10,7 @@ const OUTPUT_FILE = "entry.txt";
 const CHAR_CAP = 140;
 
 const ENTRY =
-  "My wife asked why I still hadn't fixed the leaky tap. I said I keep putting it off, but it won't stay off. That's the whole problem.";
+  "I got a job at the calendar factory in 2019 and was fired for taking one day off. My boss said my days were numbered. That was the job.";
 
 function reject(reason: string): never {
   console.error(`${OUTPUT_FILE} rejected: ${reason}`);
